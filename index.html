@@ -9,13 +9,16 @@
 <body>
 	<div class="container">
 		<div class="wrapper">
-			<p id="pertanyaan"></p>
-			<div class="row">
-				<input id="jawaban" type="text" placeholder="silahkan jawaban"/>
-				<button onclick="botStart()">klik ini</button>
-			</div>
+			<div class="content">
+				<div class="row">
+					<p id="pertanyaan"></p>
+					<input id="jawaban" type="text" placeholder="silahkan jawaban"/>
+					<button onclick="botStart()">klik ini</button>
+				</div>
+			</div>		
 		</div>
 	</div>
+	<div id="loaders"></div>
 	<script src="bot.js"></script>
 </body>
 </html>
